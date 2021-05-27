@@ -1,0 +1,59 @@
+html,
+body,
+header,
+#intro-section {
+  height: 100%;
+}
+.page-footer {
+  background-color: lightgrey;
+}
+
+.social {
+  color: black;
+}
+
+.photo {
+  border-radius: 20px;
+}
+
+.bottom-container {
+  padding-top: 500px;
+}
+.scroll-button {
+  color: white;
+  font-size: 75px;
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+}
+.scroll-button:hover {
+  color: black;
+  transition: 1s;
+}
+
+.feat-image {
+  height: 225px;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  #intro-section {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: transparent !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+}
